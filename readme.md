@@ -11,10 +11,6 @@
 
 #### This is a layout made according to the layout in Figma, in new HTML, CSS, a little JS
 
-## Time-Manage
-
-#### These are sketches of the future application, so far there is nothing to look at :)
-
 
 <!-- test  test <br> test  
 
