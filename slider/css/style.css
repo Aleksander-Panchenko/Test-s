@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(76, 80, 95);
+    text-align: center;
+}
+
+.active {
+    opacity: 0.8;
+}
+
+.no-active {
+    opacity: 0.1;
+}
+
+.slider {
+    overflow: hidden;
+    border: solid 3px black;
+    border-radius: 30px;
+}
+
+.slider-lists {
+    width: 500%;
+    height: 500px;
+    display: flex;
+    transition: ease 3s;
+}
+
+.slider-list {
+    width: 100%;
+    height: 100%;
+    transition: ease 3s;
+}
+
+.slider-btn-next {
+    position: absolute;
+    right: 15px;
+    top: 250px;
+    cursor: pointer;
+    border: solid;
+    border-radius: 50%;
+    padding: 6px 10px 6px 10px;
+}
+
+.slider-btn-back {
+    position: absolute;
+    left: 15px;
+    top: 250px;
+    cursor: pointer;
+    border: solid;
+    border-radius: 50%;
+    padding: 6px 10px 6px 10px;
+}
+
+.line {
+    position: absolute;
+    width: 97%;
+    padding: 10px;
+    background-color: rgb(138, 138, 248);
+    left: 0;
+    border-radius: 90px;
+    margin-top: 35px;
+    margin-left: 11px;
+    opacity: 0.2;
+    transition: ease 3s;
+}
+
+.move {
+    position: absolute;
+    width: 17%;
+    padding: 10px;
+    left: 0;
+    border-radius: 90px;
+    margin-top: 35px;
+    margin-left: 11px;
+    background-color: rgb(36, 48, 216);
+    opacity: 0.3;
+    transition: ease 3s;
+}
+
+.pagin-line {
+    opacity: 0.5;
+}
+
+.pagin-move {
+    opacity: 0.5;
+}
+
+
+/* 
+.slide1 {
+    margin-left: -100%;
+} */
+
+.slider-pagination3 {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    right: 50%;
+    translate: 50% -50px;
+}
+
+.slider-pagination3 span {
+    padding: 5px;
+    border-radius: 90px;
+    background-color: #fff;
+    border: solid 1px black;
+    cursor: pointer;
+    transition: ease 1s;
+}
